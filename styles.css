@@ -1,0 +1,31 @@
+body{
+   background-color: #f7f7f7;
+}
+/* about community section */
+.counters .d-flex.align-items-baseline{
+   margin-right: 0;
+   /* color: #00ab9f; */
+   justify-content: space-evenly;
+}
+.counters .d-flex.align-items-baseline h2{
+   color: #ccc;
+}
+.first,.fourth{
+   color: #00ab97
+}
+.second{
+   color: #528986;
+}
+.third{
+   color: #f89623;
+}
+/* projects page */
+.row.fixed-height{
+   height: 20vh;
+}
+a{
+   color: #00ab97;
+}
+a:hover{
+   color: #f89623;
+}
