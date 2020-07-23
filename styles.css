@@ -1,31 +1,76 @@
+:root{
+   --primary_color: #00ab97;
+   --primary_color_darker: #528986;
+   --orange_color: #f89623;
+}
 body{
    background-color: #f7f7f7;
 }
+/* header section */
+
+.container-fluid .navbar.navbar-expand-lg .nav-link{
+   font-weight: bold;
+}
+.container-fluid .navbar.navbar-expand-lg .nav-link:hover{
+   color: var(--primary_color);
+   border-bottom: 2px solid var(--orange_color);
+   font-weight: bold;
+   transition: 1s;
+   opacity: 0.7;
+}
+.navbar-nav > a{
+   color: var(--orange_color)
+}
+a.btn.btn-outline-success{
+   background-color: var(--primary_color);
+   color: white;
+   margin-right: 1rem;
+   border: none;
+}
+a.btn.btn-outline-success:hover{
+   transition: 0.7s;
+   background-color: var(--orange_color);
+   border: none;
+}
+/* introduction section */
+span#dev-title{
+   color: var(--primary_color)
+}
+
 /* about community section */
 .counters .d-flex.align-items-baseline{
    margin-right: 0;
    /* color: #00ab9f; */
    justify-content: space-evenly;
 }
+
 .counters .d-flex.align-items-baseline h2{
    color: #ccc;
 }
 .first,.fourth{
-   color: #00ab97
+   color: var(--primary_color)
 }
 .second{
-   color: #528986;
+   color: var(--primary_color_darker)
 }
 .third{
-   color: #f89623;
+   color: var(--orange_color);
 }
 /* projects page */
-.row.fixed-height{
-   height: 20vh;
-}
+
 a{
-   color: #00ab97;
+   color: var(--primary_color);
 }
 a:hover{
-   color: #f89623;
+   color: var(--orange_color);
+}
+/* learn new skills */
+div.row.ng-ligt.learn-new-skills{
+   background-color: #fff;
+}
+section.grid-section{
+   display: grid;
+   grid-template-rows: 2;
+   grid-template-columns: auto auto auto;
+   grid-gap: 1rem;
 }
