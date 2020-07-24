@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Responsive Gallery with lightbox</title>
+  
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/css/lightbox.css" />
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js'>
+<link rel="stylesheet" href="./css/gallery.css">
+ <link rel="stylesheet" href="bootstrap.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="js/jquery.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/custom.js"></script>
+</head>
+<body>
+
+  <div class="preloader">
+    <div class="sk-spinner sk-spinner-wave">
+      <div class="sk-rect1"></div>
+      <div class="sk-rect2"></div>
+      <div class="sk-rect3"></div>
+      <div class="sk-rect4"></div>
+      <div class="sk-rect5"></div>
+      <div class="sk-rect6"></div>
+      
+    </div>
+  </div>
+
+  <header class="mb-5 pt-4 pb-4">
+    <nav class=" navbar navbar-expand-lg bg-purple fixed-top">
+      <figure>
+        <img class="navbar-brand" src="logo.png" style="width: 150px;" />
+        <!-- <img class="navbar-brand" src="/Seven-dev/assets/images/Seven Dev Community logo@2x.png"
+          style="width: 100px;" /> -->
+      </figure>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about_us">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Gallery</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <a class="btn btn-outline-success btn-action my-2 my-sm-0" type="submit" href="./sign-up.html">
+            Log In
+          </a>
+          <a class="btn btn-outline-success btn-action my-2 my-sm-0" type="submit" href="./sign-up.html">
+            Join our community
+          </a>
+        </form>
+      </div>
+    </nav>
+  </header>
+</div>
+
+  <h1 class="text-center project mb-5 display-4 font-weight-bold animate__animated animate__bounceIn pt-5 mt-5" id="about_us">
+    Our Gallery
+  </h1>
+
+<div class="container">
+  <div class="item"><a href="https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=250&w=250" data-fancybox="gallery"><img src="https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=250&w=250" alt="Mountain reflection on lake"></a></div>
+  <div class="item"><a href="https://images.pexels.com/photos/302804/pexels-photo-302804.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" data-fancybox="gallery"><img src="https://images.pexels.com/photos/302804/pexels-photo-302804.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="sun coming through trees"></a></div>
+  <div class="item"><a href="https://images.pexels.com/photos/4827/nature-forest-trees-fog.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" data-fancybox="gallery"><img src="https://images.pexels.com/photos/4827/nature-forest-trees-fog.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="fog rolling over pine trees"></a></div>
+  <div class="item"><a href="https://images.pexels.com/photos/206673/pexels-photo-206673.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" data-fancybox="gallery"><img src="https://images.pexels.com/photos/206673/pexels-photo-206673.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="country house in the woods"></a></div>
+  <div class="item"><a href="https://images.pexels.com/photos/443446/pexels-photo-443446.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" data-fancybox="gallery"><img src="https://images.pexels.com/photos/443446/pexels-photo-443446.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="lake view between two trees with mountain in the background"></a></div>
+  <div class="item"><a href="https://images.pexels.com/photos/38136/pexels-photo-38136.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" data-fancybox="gallery"><img src="https://images.pexels.com/photos/38136/pexels-photo-38136.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="forest with a focus on an old oak tree"></a></div>
+  <div class="item"><a href="https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" data-fancybox="gallery"><img src="https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="lake in a valley"></a></div>
+  <div class="item"><a href="https://images.pexels.com/photos/129105/pexels-photo-129105.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" data-fancybox="gallery"><img src="https://images.pexels.com/photos/129105/pexels-photo-129105.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="tree top view looking out over forest"></a></div>
+  <div class="item"><a href="https://images.pexels.com/photos/131723/pexels-photo-131723.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" data-fancybox="gallery"><img src="https://images.pexels.com/photos/131723/pexels-photo-131723.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="sun shining through trees"></a></div>
+  <div class="item"><a href="https://images.pexels.com/photos/225203/pexels-photo-225203.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" data-fancybox="gallery"><img src="https://images.pexels.com/photos/225203/pexels-photo-225203.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="island on a lake"></a></div>
+  <div class="item"><a href="https://images.pexels.com/photos/460621/pexels-photo-460621.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" data-fancybox="gallery"><img src="https://images.pexels.com/photos/460621/pexels-photo-460621.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="waterfall surrounded by green trees"></a></div>
+  <div class="item"><a href="https://images.pexels.com/photos/145685/pexels-photo-145685.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" data-fancybox="gallery"><img src="https://images.pexels.com/photos/145685/pexels-photo-145685.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="beautiful garden in back yard"></a></div>
+</div>
+
+
+<div class="">
+  <section style="height:80px;"></section>
+
+  <!----------- Footer ------------>
+  <footer class="footer-bs bg-purple mb-0">
+    <div class="row">
+      <div class="col-md-4 footer-brand animated fadeInLeft pr-5">
+        <img src="logo.png" alt=""  id="footer-logo">
+        <p>Suspendisse hendrerit tellus laoreet luctus pharetra. Aliquam porttitor vitae orci nec ultricies. Curabitur
+          vehicula, libero eget faucibus faucibus, purus erat eleifend enim, porta pellentesque ex mi ut sem.</p>
+        <p>© 2020 Seven-Academy, All rights reserved</p>
+      </div>
+      <div class="col-md-3 footer-nav animated fadeInUp">
+        <h4>Projects —</h4>
+        <!-- <div class="col-md-6"> -->
+        <ul class="pages">
+          <li><a href="#">Seven live code editor</a></li>
+          <li><a href="#">Joy Assistant</a></li>
+          <li><a href="#">Easy Find</a></li>
+        </ul>
+      </div>
+      <div class="col-md-2 footer-social animated fadeInDown">
+        <h4>Follow Us</h4>
+        <ul>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Linkedin</a></li>
+          <li><a href="#">Github</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3 footer-ns animated fadeInRight">
+        <h4>Location</h4>
+        <p>Bali opposite Hotel Serena</p>
+        <p>
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search for...">
+            <span class="input-group-btn">
+              <button class="btn btn-default" type="button"><span
+                  class="glyphicon glyphicon-envelope"></span></button>
+            </span>
+          </div><!-- /input-group -->
+        </p>
+      </div>
+    </div>
+  </footer>
+
+</div>
+  <script src="./jquery.js"></script>
+  <script src="./js/popper.js"></script>
+  <script src="./js/bootstrap.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.js'></script>
+</body>
+</html>
